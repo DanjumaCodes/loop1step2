@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 20rem;
+  width: 20rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  border-radius: 10px;
+}
+main h4 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem 0rem 1.6rem 0rem;
+
+}
+
+.threeDots {
+  display: flex;
+  gap: 0.5rem;
+}
+.threeDots p {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.eachMethod {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  gap: 1rem;
+  width: 100%;
+  padding: 0rem 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+.eachMethod p{
+  color: rgba(0, 0, 0, 0.7);
+
+}
+.eachMethod:nth-of-type(3) p{
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+
+}
+.eachMethod img {
+  width: 3rem;
+}
+.eachMethod .check{
+    width: 2rem;
+}
+.eachMethod:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+.eachMethod span{
+    flex-grow: 1;
+}
+
+main button{
+    height: 3.5rem;
+    width: 100%;
+    border: none;
+    background-color: #5081d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    cursor: pointer;
+}
